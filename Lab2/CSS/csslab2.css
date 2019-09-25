@@ -1,0 +1,133 @@
+.house_relative{
+	background-color:orange;
+	height:100px;
+	width:100px;
+	position:relative;
+	top:50px;
+	left:9px;
+}
+.house_relative_roof{
+	width:0;
+	height:0;
+	border-left:60px solid transparent;
+	border-right:60px solid transparent;
+	border-bottom:50px solid red;
+	position:relative;
+	bottom:100px;
+}
+.house_relative_window{
+	background-color:cyan;
+	width:40px;
+	height:40px;
+	position:relative;
+	bottom:80px;
+	left:20px;
+}
+.house_relative_door{
+	background-color:brown;
+	height:70px;
+	width:40px;
+	position:relative;
+	bottom:110px;
+	left:65px;
+}
+.house_absolute{
+	background-color:gray;
+	height:100px;
+	width:100px;
+	position:absolute;
+	top:500px;
+	left:18px;
+}
+.house_absolute_roof{
+	width:0;
+	height:0;
+	border-left:60px solid transparent;
+	border-right:60px solid transparent;
+	border-bottom:50px solid red;
+	position:absolute;
+	bottom:285px;
+}
+.house_absolute_window{
+	background-color:cyan;
+	width:40px;
+	height:40px;
+	position:absolute;
+	bottom:225px;
+	left:25px;
+}
+.house_absolute_door{
+	background-color:brown;
+	height:70px;
+	width:40px;
+	position:absolute;
+	bottom:190px;
+	left:70px;
+}
+.house_fixed{
+	background-color:blue;
+	height:100px;
+	width:100px;
+	position:fixed;
+	left:18px;
+}
+.house_fixed_roof{
+	width:0;
+	height:0;
+	border-left:60px solid transparent;
+	border-right:60px solid transparent;
+	border-bottom:50px solid red;
+	position:fixed;
+	top:220px;
+}
+.house_fixed_window{
+	background-color:cyan;
+	width:40px;
+	height:40px;
+	position:fixed;
+	left:25px;
+	top:290px;
+}
+.house_fixed_door{
+	background-color:brown;
+	height:70px;
+	width:40px;
+	position:fixed;
+	left:70px;
+	top:298px;
+}
+.house_static{
+	background-color:purple;
+	height:100px;
+	width:100px;
+	position:static;
+	margin-left:8px;
+	margin-top:450px;
+
+}
+.house_static_roof{
+	width:0;
+	height:0;
+	border-left:60px solid transparent;
+	border-right:60px solid transparent;
+	border-bottom:50px solid red;
+	position:static;
+	margin-right:50px;
+	margin-top:-150px;
+}
+.house_static_window{
+	background-color:cyan;
+	width:40px;
+	height:40px;
+	position:static;
+	margin-left:15px;
+	margin-top:20px;
+}
+.house_static_door{
+	background-color:brown;
+	height:70px;
+	width:40px;
+	position:static;
+	margin-left:60px;
+	margin-top:-30px;
+}
